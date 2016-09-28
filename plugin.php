@@ -7,7 +7,7 @@
  * Author URI: http://m.tri.be/1971
  * License: GPLv2 or later
  */
- 
+
 defined( 'WPINC' ) or die;
 
 class Tribe__Extension__Add_Event_Details_to_the_Top_of_WooCommerce_Order_Emails {
