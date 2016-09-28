@@ -55,7 +55,7 @@ class Tribe__Extension__Add_Event_Details_to_the_Top_of_WooCommerce_Order_Emails
      * @return void
      */
     public function add_attending_events_above_woo_order_info( $order, $sent_to_admin ) {
-        
+
             $line_items    = $order->get_items( apply_filters( 'woocommerce_admin_order_item_types', 'line_item' ) );
             $product_ids   = array();
             $event_objects = array();
